@@ -54,14 +54,14 @@
 	}
 
 	body {
-	background-color: #000;
-	background:url("img/smoke_red.jpg");
+	background:url("img/smoke_red.jpg"), #000;
 	background-position:center;
 	background-size: 100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 	}
 
 	.slides > section > h1 {
